@@ -1,7 +1,7 @@
 # Game-Goblins in React & Redux + Django
 
 ```
-Forum App, with a frontend built in React & Redux and a backend built in Django API.
+Game-Goblins, with a frontend built in React & Redux and a backend built in Django API.
 ```
 
 ## Live Demo
