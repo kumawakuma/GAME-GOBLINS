@@ -5,6 +5,7 @@ import { getCarts, getSubtotal } from '../reducks/carts/selectors';
 import { fetchCarts } from '../reducks/carts/operations';
 import { addOrder } from '../reducks/order/operations';
 import { push } from 'connected-react-router';
+import CommonFooterText from '../components/Common/CommonFooterText';
 const api = new API();
 
 const Shipping = () => {
@@ -193,6 +194,7 @@ const Shipping = () => {
                     </div>
                 </div>
             </section>
+            <CommonFooterText />
         </>
     );
 };

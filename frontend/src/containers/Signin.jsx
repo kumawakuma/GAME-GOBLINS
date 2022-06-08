@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { signIn } from '../reducks/users/operations';
 import Home from '../containers/Home';
+import Header from '../components/Common/Header';
 
 import { push } from 'connected-react-router';
 

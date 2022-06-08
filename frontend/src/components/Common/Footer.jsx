@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { push } from 'connected-react-router';
 
+import CommonFooterText from './CommonFooterText';
+
 export default function Footer({ price }) {
     let pageUrl = window.location.toString();
     const [showCheckoutButton, setShowCheckoutButton] = useState(true);
@@ -55,6 +57,7 @@ export default function Footer({ price }) {
 
                     {/* <button class="checkout">Checkout</button> */}
                 </div>
+                <CommonFooterText />
             </section>
         </footer>
     );

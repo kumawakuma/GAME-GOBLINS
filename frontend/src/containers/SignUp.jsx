@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { signUp } from '../reducks/users/operations';
 // import CrossX from '../assets/img/cross.png';
+
 import Home from '../containers/Home';
 import { push } from 'connected-react-router';
+
 // import Melodium from '../assets/img/Melodium.svg';
 
 const SignUp = () => {
@@ -12,6 +14,7 @@ const SignUp = () => {
     const closeButton = () => {
         dispatch(push('/'));
     };
+
     const [user_name, setUserName] = useState(''),
         [email, setEmail] = useState(''),
         [password, setPassword] = useState('');
@@ -24,11 +27,13 @@ const SignUp = () => {
     const inputPassword = event => {
         setPassword(event.target.value);
     };
+
     const signUpButton = () => {
         dispatch(signUp(user_name, email, password));
         setUserName('');
         setEmail('');
         setPassword('');
+        // window.location.toString();
     };
     return (
         <>

@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux';
 import { getUser } from '../reducks/users/selectors';
 import { useDispatch } from 'react-redux';
 import { push } from 'connected-react-router';
+import CommonFooterText from '../components/Common/CommonFooterText';
 const OrderConfirmation = () => {
     const selector = useSelector(state => state);
     const dispatch = useDispatch();
@@ -28,6 +29,7 @@ const OrderConfirmation = () => {
                     Back To Home
                 </button>
             </div>
+            <CommonFooterText />
         </div>
     );
 };
