@@ -22,7 +22,7 @@ const OrderConfirmation = () => {
                 Our staff will be contacting with you to tell next steps.
             </h6>
             <div class="backtohome">
-                <button class="thankyoubtn" onClick={backtohome} type="submit">
+                <button class="thankyoubtn" onClick={backtohome} >
                     Back To Home
                 </button>
             </div>
