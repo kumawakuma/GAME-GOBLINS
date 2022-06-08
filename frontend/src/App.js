@@ -27,6 +27,7 @@ function App() {
             pageUrl.includes('/signup')
         ) {
             setShowFooter(false);
+            setshowCommonFooter(false);
         }
         if (pageUrl.includes('/signin') || pageUrl.includes('/signup')) {
             setshowCommonFooter(false);
