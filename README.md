@@ -8,9 +8,9 @@ Game-Goblins, with a frontend built in React & Redux and a backend built in Djan
 
 **This App uses a Heroku free plan, so I am afraid that it takes time to load the pages.**
 
-Check out [FRONTEND LIVE DEMO](https://frontend-gamegoblins.herokuapp.com/) here!!
+Check out [FRONTEND LIVE DEMO](https://game-goblins-frontend-1.herokuapp.com/) here!!
 
-Check out [API LIVE DEMO](https://backend-gamegoblins.herokuapp.com/) here!!
+Check out [API LIVE DEMO](https://backend-game-goblins.herokuapp.com/) here!!
 
 ## Tech used
 
